@@ -33,41 +33,4 @@ app.use('/api', routes); // Use api routes in the APP
 
 app.listen(port, () => {
   console.log(`Bienvenido`);
-  // console.log(`----------------------------------------------------------------------------------------------------`);
-  //
-  // do {
-  //   getPrimeNumbers(baseNumber);
-  //   r = prompt('¿Desea evaluar otro número? (y/n): ');
-  //   console.log(`----------------------------------------------------------------------------------------------------`);
-  // } while(r == 'y');
-  //
-  // console.log(`Gracias, hasta luego`);
-  // console.log(`----------------------------------------------------------------------------------------------------`);
-  //
-  // function getPrimeNumbers(baseNumber) {
-  //   var inputNumber = parseInt(prompt('Introduzca un número para obtener todos los números primos entre si mismo y 2: '));
-  //   console.log(`----------------------------------------------------------------------------------------------------`);
-  //
-  //   if (inputNumber !== parseInt(inputNumber, 10)) { //Si el input no es un número, no permite seguir, y muestra un mensaje al usuario.
-  //     console.log(`Solo puedes introducir números, que sean mayores o iguales a ${baseNumber}.`);
-  //     console.log(`----------------------------------------------------------------------------------------------------`);
-  //     return false;
-  //   }
-  //
-  //   if (inputNumber < baseNumber || inputNumber <= 1) { //Si el número introducido por input es menor al número base, el algoritmo no permite seguir, y le advierte de esto al usuario.
-  //     console.log(`Número inválido. Introduce un número mayor o igual ${baseNumber}.`);
-  //     console.log(`----------------------------------------------------------------------------------------------------`);
-  //     return false;
-  //   }
-  //
-  //   console.log(`Los números primos entre ${baseNumber} y ${inputNumber} son: `);
-  //
-  //   for(let i = inputNumber; i >= baseNumber; i--) { //Este FOR permite iterar desde el número introducido por el usuario, descendiendo hasta el número base.
-  //     if(isPrime(i)) {
-  //       console.log(i);
-  //     }
-  //   }
-  //
-  //   console.log(`----------------------------------------------------------------------------------------------------`);
-  // }
 });
